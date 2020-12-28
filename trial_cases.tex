@@ -1,0 +1,104 @@
+\documentclass{article} 
+\usepackage{tikz} 
+\usetikzlibrary{calc,arrows} 
+%\usepackage[paperwidth=3cm, paperheight=2cm,margin=0.001cm]{geometry}
+
+\usepackage{graphicx}
+\begin{document} 
+\pagestyle{empty}
+
+\begin{tikzpicture}[remember picture,overlay,shift=(current page.south west)]
+\begin{scope}[x={(current page.south east)},y={(current page.north west)}]
+
+% ind=[str(i) for i in range(12)]
+% id=[str(i) for i in range(15)]
+% let="ABCDE"
+% id= {'id'+str(i):(3,3+i) for i in range(15)}
+%
+% rep1={str(i)+let[j]:(6+i,3+j) for i in range(12) for j in range(5)}
+% rep2={str(12+i)+let[j](6+i,3+j) for i in range(12) for j in range(5)}
+\draw[lightgray,step=.05] (0,0) grid (1,1);
+
+%\draw [red,very thick] (.1,.85)--(.9,.85)--(.9,.9)--(.1,.9)--cycle;
+
+\draw[red,very thick,step=.05] (.099,.85) grid (.901,.901);
+
+\draw (.1,.875) node[right]{\Huge ID};
+
+
+\draw[blue,very thick,step=.05] (0.15,0.0991) grid (.401,.701);
+\draw (.15,.725) node[above,right]{\Huge A};
+\draw (.20,.725) node[above,right]{\Huge B};
+\draw (.25,.725) node[above,right]{\Huge C};
+\draw (.30,.725) node[above,right]{\Huge D};
+\draw (.35,.725) node[above,right]{\Huge E};
+
+
+\draw (.1,0.675) node[above,right]{\Huge 1};
+\draw (.1,0.625) node[above,right]{\Huge 2};
+\draw (.1,0.5750000000000001) node[above,right]{\Huge 3};
+\draw (.1,0.525) node[above,right]{\Huge 4};
+\draw (.1,0.47500000000000003) node[above,right]{\Huge 5};
+\draw (.1,0.42500000000000004) node[above,right]{\Huge 6};
+\draw (.1,0.375) node[above,right]{\Huge 7};
+\draw (.1,0.325) node[above,right]{\Huge 8};
+\draw (.1,0.275) node[above,right]{\Huge 9};
+\draw (.1,0.22500000000000003) node[above,right]{\Huge 10};
+\draw (.1,0.17500000000000004) node[above,right]{\Huge 11};
+\draw (.1,0.125) node[above,right]{\Huge 12};
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ \draw[blue,very thick,step=.05] (0.65,0.09910) grid (.901,.701);
+\draw (.65,.725) node[above,right]{\Huge A};
+\draw (.70,.725) node[above,right]{\Huge B};
+\draw (.75,.725) node[above,right]{\Huge C};
+\draw (.80,.725) node[above,right]{\Huge D};
+\draw (.85,.725) node[above,right]{\Huge E};
+
+
+\draw (.6,0.675) node[above,right]{\Huge 13};
+\draw (.6,0.625) node[above,right]{\Huge 14};
+\draw (.6,0.5750000000000001) node[above,right]{\Huge 15};
+\draw (.6,0.525) node[above,right]{\Huge 16};
+\draw (.6,0.47500000000000003) node[above,right]{\Huge 17};
+\draw (.6,0.42500000000000004) node[above,right]{\Huge 18};
+\draw (.6,0.375) node[above,right]{\Huge 19};
+\draw (.6,0.325) node[above,right]{\Huge 20};
+\draw (.6,0.275) node[above,right]{\Huge 21};
+\draw (.6,0.22500000000000003) node[above,right]{\Huge 22};
+\draw (.6,0.17500000000000004) node[above,right]{\Huge 23};
+\draw (.6,0.125) node[above,right]{\Huge 24};
+%inserthereOK 
+\draw[fill] (0,0) rectangle (.05,.05);
+\draw[fill] (.95,0) rectangle (1,0.05);
+\draw[fill] (0,.95) rectangle (.05,1);
+\draw[fill] (.95,.95) rectangle (1,1);
+
+\end{scope}
+
+
+\end{tikzpicture} 
+
+
+  
+\end{document}
+
+\draw[fill] (.7,.5) rectangle (.75,.55);
+\begin{tikzpicture}[remember picture,overlay]%,shift=(current page.south west)]
+%\begin{scope}[x={(current page.south west)},y={(current page.north east)}]
+%\draw (10*.05,10*.05)node[anchor=south west]{ \includegraphics[width=.425in,height=.575in]{testrgb.png}};
+
+\draw (.05\paperwidth,.05\paperheight)node[]{X
+};
+% \end{scope}
+
+
+\end{tikzpicture}
