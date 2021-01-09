@@ -1,13 +1,13 @@
 # MyOMR
-This is an Optical Mark Recognition software. Its automates the grading of multiple choice questions. The aim is to make it easy to use and
+This is an Optical Mark Recognition software. It automates the grading of multiple-choice questions. The aim is to make it easy to use and
 require only python packages.
 
 ## Usage
 * The examiner prints copies of the pdf file called "test_cases.pdf".
-* The exam taker file them by blacking out appropriate cases.
+* The exam takers files them by blacking out appropriate cases.
 * The examiner produces the solution  by blacking out appropriate cases.
-* The scanned version are provided to the software
-* Students Id and grades are produced by the software.
+* The scanned versions are provided to the software.
+* Students Ids and grades are produced by the software.
 
 ## Example
 
@@ -33,4 +33,5 @@ pdf2image, numpy
 ![form](test.jpeg)
 ### Example solution
 ![form](sol.jpeg)
+
 
